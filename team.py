@@ -102,28 +102,12 @@ def team_input():
                 elif nteam1_avg<nteam2_avg:
                     new_diff=nteam2_avg-nteam1_avg
             if len(t1)>7:
-                if new_diff>=old_diff:
-                    final_team1.pop(7)
-                    final_team1.pop(7)
-                    final_team1.pop(7)
-                    final_team1.pop(7)
-                    final_team1.pop(7)
-                    final_team1.pop(7)
-                    final_team1.pop(7)
-                    t1.pop(7)
-                    t1.pop(7)
-                    t1.pop(7)
-                    t1.pop(7)
-                    t1.pop(7)
-                    t1.pop(7)
-                    t1.pop(7)
-                    final_team2.pop(7)
-                    final_team2.pop(7)
-                    final_team2.pop(7)
-                    final_team2.pop(7)
-                    final_team2.pop(7)
-                    final_team2.pop(7)
-                    final_team2.pop(7)
+                if nfor i in range(7):
+                        final_team1.pop(0)
+                    for i in range(7):
+                        t1.pop(0)
+                    for i in range(7):
+                        final_team2.pop(7)
                     t2.pop(7)
                     t2.pop(7)
                     t2.pop(7)
@@ -132,34 +116,14 @@ def team_input():
                     t2.pop(7)
                     t2.pop(7)
                 elif new_diff<old_diff:
-                    final_team1.pop(0)
-                    final_team1.pop(0)
-                    final_team1.pop(0)
-                    final_team1.pop(0)
-                    final_team1.pop(0)
-                    final_team1.pop(0)
-                    final_team1.pop(0)
-                    t1.pop(0)
-                    t1.pop(0)
-                    t1.pop(0)
-                    t1.pop(0)
-                    t1.pop(0)
-                    t1.pop(0)
-                    t1.pop(0)
-                    final_team2.pop(0)
-                    final_team2.pop(0)
-                    final_team2.pop(0)
-                    final_team2.pop(0)
-                    final_team2.pop(0)
-                    final_team2.pop(0)
-                    final_team2.pop(0)
-                    t2.pop(0)
-                    t2.pop(0)
-                    t2.pop(0)
-                    t2.pop(0)
-                    t2.pop(0)
-                    t2.pop(0)
-                    t2.pop(0)
+                    for i in range(7):
+                        final_team1.pop(0)
+                    for i in range(7):
+                        t1.pop(0)
+                    for i in range(7):
+                        final_team2.pop(0)
+                    for i in range(7):
+                        t2.pop(0)
         elif size=='6':
             for i in range(6):
                 r=random.choice(players)
@@ -190,55 +154,23 @@ def team_input():
                     new_diff=nteam2_avg-nteam1_avg
             if len(t1)>6:
                 if new_diff>=old_diff:
-                    final_team1.pop(6)
-                    final_team1.pop(6)
-                    final_team1.pop(6)
-                    final_team1.pop(6)
-                    final_team1.pop(6)
-                    final_team1.pop(6)
-                    t1.pop(6)
-                    t1.pop(6)
-                    t1.pop(6)
-                    t1.pop(6)
-                    t1.pop(6)
-                    t1.pop(6)
-                    final_team2.pop(6)
-                    final_team2.pop(6)
-                    final_team2.pop(6)
-                    final_team2.pop(6)
-                    final_team2.pop(6)
-                    final_team2.pop(6)
-                    t2.pop(6)
-                    t2.pop(6)
-                    t2.pop(6)
-                    t2.pop(6)
-                    t2.pop(6)
-                    t2.pop(6)
+                    for i in range(6):
+                        final_team1.pop(6)
+                    for i in range(6):    
+                        t1.pop(6)
+                    for i in range(6): 
+                        final_team2.pop(6)
+                    for i in range(6):    
+                        t2.pop(6)
                 elif new_diff<old_diff:
-                    final_team1.pop(0)
-                    final_team1.pop(0)
-                    final_team1.pop(0)
-                    final_team1.pop(0)
-                    final_team1.pop(0)
-                    final_team1.pop(0)
-                    t1.pop(0)
-                    t1.pop(0)
-                    t1.pop(0)
-                    t1.pop(0)
-                    t1.pop(0)
-                    t1.pop(0)
-                    final_team2.pop(0)
-                    final_team2.pop(0)
-                    final_team2.pop(0)
-                    final_team2.pop(0)
-                    final_team2.pop(0)
-                    final_team2.pop(0)
-                    t2.pop(0)
-                    t2.pop(0)
-                    t2.pop(0)
-                    t2.pop(0)
-                    t2.pop(0)
-                    t2.pop(0)
+                    for i in range(6):    
+                        final_team1.pop(0)
+                    for i in range(6):    
+                        t1.pop(0)
+                    for i in range(6):    
+                        final_team2.pop(0)
+                    for i in range(6):
+                        t2.pop(0)
         elif size=='5':
             for i in range(5):
                 r=random.choice(players)
@@ -269,47 +201,23 @@ def team_input():
                     new_diff=nteam2_avg-nteam1_avg
             if len(t1)>5:
                 if new_diff>=old_diff:
-                    final_team1.pop(5)
-                    final_team1.pop(5)
-                    final_team1.pop(5)
-                    final_team1.pop(5)
-                    final_team1.pop(5)
-                    t1.pop(5)
-                    t1.pop(5)
-                    t1.pop(5)
-                    t1.pop(5)
-                    t1.pop(5)
-                    final_team2.pop(5)
-                    final_team2.pop(5)
-                    final_team2.pop(5)
-                    final_team2.pop(5)
-                    final_team2.pop(5)
-                    t2.pop(5)
-                    t2.pop(5)
-                    t2.pop(5)
-                    t2.pop(5)
-                    t2.pop(5)
+                    for i in range(5):    
+                        final_team1.pop(5)
+                    for i in range(5):
+                        t1.pop(5)
+                    for i in range(5):    
+                        final_team2.pop(5)
+                    for i in range(5):
+                        t2.pop(5)
                 elif new_diff<old_diff:
-                    final_team1.pop(0)
-                    final_team1.pop(0)
-                    final_team1.pop(0)
-                    final_team1.pop(0)
-                    final_team1.pop(0)
-                    t1.pop(0)
-                    t1.pop(0)
-                    t1.pop(0)
-                    t1.pop(0)
-                    t1.pop(0)
-                    final_team2.pop(0)
-                    final_team2.pop(0)
-                    final_team2.pop(0)
-                    final_team2.pop(0)
-                    final_team2.pop(0)
-                    t2.pop(0)
-                    t2.pop(0)
-                    t2.pop(0)
-                    t2.pop(0)
-                    t2.pop(0)
+                    for i in range(5):    
+                        final_team1.pop(0)
+                    for i in range(5):    
+                        t1.pop(0)
+                    for i in range(5):    
+                        final_team2.pop(0)
+                    for i in range(5):    
+                        t2.pop(0)
                 
         elif size=='4':
             for i in range(4):
@@ -345,39 +253,23 @@ def team_input():
                     new_diff=nteam2_avg-nteam1_avg
             if len(t1)>4:
                 if new_diff>=old_diff:
-                    final_team1.pop(4)
-                    final_team1.pop(4)
-                    final_team1.pop(4)
-                    final_team1.pop(4)
-                    t1.pop(4)
-                    t1.pop(4)
-                    t1.pop(4)
-                    t1.pop(4)
-                    final_team2.pop(4)
-                    final_team2.pop(4)
-                    final_team2.pop(4)
-                    final_team2.pop(4)
-                    t2.pop(4)
-                    t2.pop(4)
-                    t2.pop(4)
-                    t2.pop(4)
+                    for i in range(4):
+                        final_team1.pop(4)
+                    for i in range(4):    
+                        t1.pop(4)
+                    for i in range(4):    
+                        final_team2.pop(4)
+                    for i in range(4):    
+                        t2.pop(4)
                 elif new_diff<old_diff:
-                    final_team1.pop(0)
-                    final_team1.pop(0)
-                    final_team1.pop(0)
-                    final_team1.pop(0)
-                    t1.pop(0)
-                    t1.pop(0)
-                    t1.pop(0)
-                    t1.pop(0)
-                    final_team2.pop(0)
-                    final_team2.pop(0)
-                    final_team2.pop(0)
-                    final_team2.pop(0)
-                    t2.pop(0)
-                    t2.pop(0)
-                    t2.pop(0)
-                    t2.pop(0)
+                    for i in range(4):    
+                        final_team1.pop(0)
+                    for i in range(4):    
+                        t1.pop(0)
+                    for i in range(4):
+                        final_team2.pop(0)
+                    for i in range(4):    
+                        t2.pop(0)
         else:
             print('Invalid size')
             break
